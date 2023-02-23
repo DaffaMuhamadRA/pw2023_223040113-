@@ -14,9 +14,9 @@
 
     echo "aku adalah angka <b> $nrp </b>";
     echo "<br>Jika aku dikali 5, maka aku sekarang akan menjadi ". "<b>". $nrp*5 . "</b>";
-    echo "<br>Jika aku dikali 5, maka aku sekarang akan menjadi ". "<b>". $nrp*5/2 . "</b>";
-    echo "<br>Jika aku dikali 5, maka aku sekarang akan menjadi ". "<b>". $nrp*5/2+75 . "</b>";
-    echo "<br>Jika aku dikali 5, maka aku sekarang akan menjadi ". "<b>". $nrp*5/2+75-20 . "</b>";
+    echo "<br>Jika aku dibagi 2, maka aku sekarang akan menjadi ". "<b>". $nrp*5/2 . "</b>";
+    echo "<br>Jika aku ditambah 75, maka aku sekarang akan menjadi ". "<b>". $nrp*5/2+75 . "</b>";
+    echo "<br>Jika aku dikurang 20, maka aku sekarang akan menjadi ". "<b>". $nrp*5/2+75-20 . "</b>";
     ?>
 </body>
 </html>
