@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3a</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            line-height:0;
+        }
         .kotak {
             display:block;
             background-color:orange ;
             width: 50px;
-            height: 40px;
+            height: 50px;
             border:1px solid black;
             text-align:center;
             padding: 2 0;
             padding-top:10px;
             font-size:20px;
             font-weight:bold;
+            line-height:50px; 
         }
     </style>
 </head>
