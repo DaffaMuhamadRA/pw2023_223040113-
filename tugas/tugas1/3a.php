@@ -12,30 +12,27 @@
             line-height:0;
         }
         .kotak {
-            display:block;
             background-color:orange ;
             width: 50px;
             height: 50px;
-            border:1px solid black;
-            text-align:center;
-            padding: 2 0;
-            padding-top:10px;
+            border:2px solid black;
             font-size:20px;
             font-weight:bold;
             line-height:50px; 
+            text-align:center;
+            display:inline-flex;
         }
     </style>
 </head>
 <body>
     
-    <div style="">
+    <div>
         <div class="kotak">1</div>
-        <div style="display:inline-flex;">
+        <div>
             <div class="kotak">2</div>
             <div class="kotak">2</div>
         </div>
-        <br>
-        <div style="display:inline-flex;">
+        <div>
             <div class="kotak">3</div>
             <div class="kotak">3</div>
             <div class="kotak">3</div>
