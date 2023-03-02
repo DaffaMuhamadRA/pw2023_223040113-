@@ -6,5 +6,4 @@ while($angkot_awal <=10){
     $angkot_awal ++ ;
     
 }
-
 ?>
