@@ -1,8 +1,14 @@
-<?php 
-
-function urutanangka($baris){
-    for()
+<?php
+function Urutanangka($baris)
+{
+    $urutan = 1;
+    for ($i = 1; $i <= $baris; $i++) {
+        for ($j = 1; $j <= $i; $j++) {
+            echo $urutan++ . " ";
+        }
+        echo "<br>";
+    }
 }
 
-echo urutanangka(5);
+echo Urutanangka(5);
 ?>
