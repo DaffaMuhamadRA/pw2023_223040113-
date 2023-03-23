@@ -46,9 +46,9 @@ $makanan  = ['🍤','🍔','🍕','🍞','🍟'];
 
     <h2>Daftar Makanan + index </h2>
     <ol>
-        <?php foreach($makanan as $i => $m){ ?>
+        <?php foreach($makanan as $i => $v){ ?>
             <!-- foreach($array as $index => $value){}-->
-        <li>index : <?= $i; ?>, value : <?= $m; ?></li>
+        <li>index : <?= $i; ?>, value : <?= $v; ?></li>
         <?php } ?>
     </ol>
 </body>
